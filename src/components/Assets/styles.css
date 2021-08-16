@@ -1,0 +1,32 @@
+.loginContainer{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.loginContainer .loginContent{
+    background: #ffffff69 !important;
+    padding: 4% 2%;
+    border-radius: 16px;
+    width: 100%;
+    margin: 0 auto;
+}
+.loginContainer .loginContent .Header{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.loginContainer .loginContent .Header h4{
+    margin: 0 !important;
+    color: #333 !important;
+}
+.ui.inverted.dimmer{
+    background-color: #00000005 !important;
+}
+[class*="vertically padded"].ui.grid{
+    width: 100%;
+}
+.ui.column.grid>[class*="eight wide"].column, .ui.grid>.column.row>[class*="eight wide"].column, .ui.grid>.row>[class*="eight wide"].column, .ui.grid>[class*="eight wide"].column {
+    width: 75%!important;
+}
